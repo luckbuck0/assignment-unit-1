@@ -1,15 +1,130 @@
 /* Give your page a fun background color */
-body {background-color: #A9D9D0;}
+body 
+{
+    background-color: #343938;
+}
 /* Make the header and footer a different color from the background */
-h1 {color: white; text-align: center; }
- footer {color: #F2E7DC; text-align: center;}
-h2 {color:blue; text-align: center;}
+h1 
+{color: rgb(143, 87, 195); 
+text-align: center; 
+}
+header 
+{
+ color: lightblue;
+ font-size: 20px;
+ padding-top: 20px;
+
+}
+ footer 
+ {
+  color: #F2E7DC; 
+  text-align: center;
+  background-image: linear-gradient(rgb(158, 17, 158),white);
+  margin-top: -20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+
+h2 
+{
+  color:rgb(78, 76, 209);
+   text-align: center;
+   background-image: linear-gradient(rgb(158, 17, 158),white);
+   margin-top: -20px;
+   padding-bottom: 20px;
+   padding-left: 50px;
+   padding-top: 20px;
+}
 /* Align the h1 containing your name in the center of the header*/
 
 /* Make your p tag a different color and italic */
-p {color: rgba(144, 40, 197, 0.724); font-style: italic;}
+p 
+{
+  color: rgba(234, 229, 236, 0.724); 
+  font-style: italic;
+  margin-top: 20px;
+  
+}
 /* Put a border around your image */
-img {border: 10px solid #F2E7DC; width: 300px;}
+img 
+{padding-left:120px;
+#F2E7DC; width: 300px;
+}
 /* Change the font-family of your list */
-li {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center;}
-div {display: block; float: center;}
+li 
+{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding-top: 20px;
+  margin-top: -20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  margin-left: -40px;
+}
+div 
+{
+ display: block; 
+ float: center;
+}
+
+.img
+{
+    display:flex;
+    padding-top: 30px;
+    background-color: white;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    padding-left: 10px;  
+}
+
+.img1
+{
+    padding-left: 40px;
+    margin-right: -100px;
+}
+
+.spir
+{
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+.pers
+{
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+.work
+{
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+.home
+{
+    padding-left: 150px;
+    text-decoration: none;
+}
+
+.navBar
+{
+    display: flex;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(158, 17, 158),white);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo
+{
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.a 
+{
+    padding-top: 20px;
+}
